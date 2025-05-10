@@ -12,4 +12,5 @@ jobs:
       - name: Update mirror
         uses: projg2/crate-dist-mirror-action@v2
         with:
+          directories: tui
           ssh-private-key: ${{ secrets.ssh_key }}
